@@ -1,11 +1,20 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
+
 {
   "name": "HTML, CSS, and JavaScript: Building the Web",
-  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "image": "debian:bookworm",
+
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/common-utils:2": {}, // Pour curl, unzip, git, etc.
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
   },
+
   "customizations": {
     "vscode": {
       "extensions": [
@@ -17,8 +26,8 @@
       ]
     }
   },
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
   "postCreateCommand": "pip3 install mkdocs-material",
-  "postAttachCommand": "git pull --all",
-  // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
+  "postAttachCommand": "git pull --all"
 }
