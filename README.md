@@ -1,4 +1,9 @@
+> ⚠️ Forked from [`html-css-and-javascript-building-the-web-4479542`](https://github.com/LinkedInLearning/html-css-and-javascript-building-the-web-4479542)
+
+> Includes [personal notes](personal-notes.md) and small config changes for local use.
+
 # HTML, CSS, and JavaScript: Building the Web
+
 This is the repository for the LinkedIn Learning course HTML, CSS, and JavaScript: Building the Web. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![lil-thumbnail-url]
@@ -15,7 +20,7 @@ Senior Program Manager, Developer Relations at Microsoft
 [Jasmine Greenaway](https://www.linkedin.com/learning/instructors/jasmine-greenaway?u=104)
 Technologist, Teacher, Author, Developer Relations at Microsoft
 
-                        
+
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
