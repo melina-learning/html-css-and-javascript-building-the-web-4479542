@@ -46,3 +46,25 @@
 - class=: apply the same styles to multiple elements
 - alt=: provide text descriptions
 
+## CSS Styling
+
+- commenting in CSS: /* */
+- curly braces
+- semi-colons ";" in curly braces
+- cascading: multiple styles can apply to the same element; the browser chooses the final one based on priority, specificity, or order
+- inheritance: allows color styles to be passed down from "parent" to "child"
+- selectors:
+  - element
+  - id
+  - class
+  - descendant, e.g. if you wnat to resize all imgs inside a div
+  - pseudo-class: picks elements based on a state, e.g. hover
+- properties: to specify color, size, positioning, etc
+- animations: dynamic elements (motion and visual effects)
+  - keyframe: specify intermiediate frames and CSS will generate the in-between frames
+- transitions: making sure the transition between the states look smooth
+
+### Style Priority
+
+- inline html styling > css styling
+- css specific style for element > inheritance from other elements
