@@ -68,3 +68,30 @@
 
 - inline html styling > css styling
 - css specific style for element > inheritance from other elements
+
+## JavaScript Development
+
+- commands to create variables:
+  - let: block-scoped, can be reassigned
+  - const: block-scoped, cannot be reassigned (constant)
+  - var: function-scoped, avoid using (older syntax)
+- end of line → ";" (except of end of blocks of function, if and for)
+- "{}" used for fonctions, conditions and loops
+- console.log(): logs
+- closures: allows an inner function to access variables from its outer function
+
+### Document Object Model (DOM)
+
+- structure of a web page as a tree of objects
+- the  DOM is the API of the browser
+- JavaScript is the offical language of the browser
+
+### Event Handling
+
+- allows to listen and respond to mouse/keyboard click, drag and more
+- event listener: function that wait for a specific event to occur and then execute code in response
+  - event types: clciks, key presses, changes in the doc
+  - targets`every event is associated with a particular element in the DOM
+  - event handler function: code to be exectued when the event occurs
+  - adding event listener: crucial step to attach an event listener to a particular element
+- event.preventDefault: prevents any default actions that might occur
