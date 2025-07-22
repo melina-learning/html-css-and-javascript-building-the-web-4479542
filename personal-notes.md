@@ -16,7 +16,7 @@
 - attributes: used to specify properties, e.g character encoding, viewport setting, ids, classes, alternative texts for accessibility, etc
   - if using multiple attributes, separate each attribute with a space
   - usually: attribute name on the left, followed by equal sign and the value to the right between 2 double quotes
-- accessibility: ensure that all users, including those with disabilities, can access and intercat with our webpage
+- accessibility: ensure that all users, including those with disabilities, can access and interact with our webpage
 - semantic elements: help understand the structure and hierarchy; e.g. table, header, footer, section, ...
 
 ### Tags
@@ -26,11 +26,10 @@
 - <head>: meta information (title, ...)
 - <body>: main content
 - <meta>: provides information about the document (author, description, keywords, ...)
-- <link>: e.g. css file 
+- <link>: e.g. css file
 - <script>: javascript file
 - <div>: container to group content
-- <img>: images 
-
+- <img>: images
 
 ### Attributes
 
@@ -48,7 +47,7 @@
 
 ## CSS Styling
 
-- commenting in CSS: /* */
+- commenting in CSS: /**/
 - curly braces
 - semi-colons ";" in curly braces
 - cascading: multiple styles can apply to the same element; the browser chooses the final one based on priority, specificity, or order
@@ -57,11 +56,11 @@
   - element
   - id
   - class
-  - descendant, e.g. if you wnat to resize all imgs inside a div
+  - descendant, e.g. if you want to resize all imgs inside a div
   - pseudo-class: picks elements based on a state, e.g. hover
 - properties: to specify color, size, positioning, etc
 - animations: dynamic elements (motion and visual effects)
-  - keyframe: specify intermiediate frames and CSS will generate the in-between frames
+  - keyframe: specify intermediate frames and CSS will generate the in-between frames
 - transitions: making sure the transition between the states look smooth
 
 ### Style Priority
@@ -76,7 +75,7 @@
   - const: block-scoped, cannot be reassigned (constant)
   - var: function-scoped, avoid using (older syntax)
 - end of line → ";" (except of end of blocks of function, if and for)
-- "{}" used for fonctions, conditions and loops
+- "{}" used for functions, conditions and loops
 - console.log(): logs
 - closures: allows an inner function to access variables from its outer function
 
@@ -84,14 +83,21 @@
 
 - structure of a web page as a tree of objects
 - the  DOM is the API of the browser
-- JavaScript is the offical language of the browser
+- JavaScript is the official language of the browser
 
 ### Event Handling
 
 - allows to listen and respond to mouse/keyboard click, drag and more
 - event listener: function that wait for a specific event to occur and then execute code in response
-  - event types: clciks, key presses, changes in the doc
+  - event types: clicks, key presses, changes in the doc
   - targets`every event is associated with a particular element in the DOM
-  - event handler function: code to be exectued when the event occurs
+  - event handler function: code to be executed when the event occurs
   - adding event listener: crucial step to attach an event listener to a particular element
 - event.preventDefault: prevents any default actions that might occur
+
+## Coding Projects
+
+- spritesheet: all the different characters of your game
+- canvas: html element to do freeform graphics
+  - 2D graphics
+  - WebGL
